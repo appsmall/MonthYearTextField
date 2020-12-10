@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MonthYearTextField_Example' do
+  pod 'MonthYearTextField', :path => '../'
+
+  target 'MonthYearTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
