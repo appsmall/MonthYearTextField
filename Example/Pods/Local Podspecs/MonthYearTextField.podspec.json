@@ -1,0 +1,22 @@
+{
+  "name": "MonthYearTextField",
+  "version": "0.1.0",
+  "summary": "A short description of MonthYearTextField.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/appsmall/MonthYearTextField",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "appsmall": "rahul.chopra@techangouts.com"
+  },
+  "source": {
+    "git": "https://github.com/appsmall/MonthYearTextField.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MonthYearTextField/Classes/**/*"
+}

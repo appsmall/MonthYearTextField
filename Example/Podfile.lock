@@ -1,0 +1,16 @@
+PODS:
+  - MonthYearTextField (0.1.0)
+
+DEPENDENCIES:
+  - MonthYearTextField (from `../`)
+
+EXTERNAL SOURCES:
+  MonthYearTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MonthYearTextField: 14f542c811c8cd23fe36d9573a8443afd4f70528
+
+PODFILE CHECKSUM: 758ecb9d75afc79688bba178b3b0a41d9e325e28
+
+COCOAPODS: 1.10.0

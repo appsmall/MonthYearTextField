@@ -1,0 +1,6 @@
+framework module MonthYearTextField {
+  umbrella header "MonthYearTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}
