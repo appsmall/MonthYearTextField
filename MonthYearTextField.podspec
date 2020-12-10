@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Classes/**/*.swift'
+  s.source_files = 'MonthYearTextField/Classes/**/*'
   
   s.swift_version = '5.0'
   
