@@ -22,7 +22,7 @@ pod 'MonthYearTextField'
 
 ## Author
 
-appsmall, rahul.chopra@techangouts.com
+appsmall, rahulchopra.rc93@gmail.com
 
 ## License
 

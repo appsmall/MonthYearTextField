@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		184075A335FE7F258CFAA97B /* Pods_MonthYearTextField_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AB570DA273A263FEB0D6DD /* Pods_MonthYearTextField_Example.framework */; };
+		2F5B067A25827746005EBCE3 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B067925827746005EBCE3 /* DesignableView.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,7 +31,8 @@
 /* Begin PBXFileReference section */
 		11AB570DA273A263FEB0D6DD /* Pods_MonthYearTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonthYearTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D2ED773FCA7E90E95484D3 /* Pods-MonthYearTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonthYearTextField_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MonthYearTextField_Tests/Pods-MonthYearTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5C17EA9DBD4AF1E6E213B52B /* MonthYearTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MonthYearTextField.podspec; path = ../MonthYearTextField.podspec; sourceTree = "<group>"; };
+		2F5B067925827746005EBCE3 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		5C17EA9DBD4AF1E6E213B52B /* MonthYearTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MonthYearTextField.podspec; path = ../MonthYearTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* MonthYearTextField_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonthYearTextField_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +46,9 @@
 		6FE39B5D96E63E0E46F639FE /* Pods_MonthYearTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonthYearTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		866DF284680F778F94504B82 /* Pods-MonthYearTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonthYearTextField_Tests.release.xcconfig"; path = "Target Support Files/Pods-MonthYearTextField_Tests/Pods-MonthYearTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AE50B5BA0C87E2D86976C715 /* Pods-MonthYearTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonthYearTextField_Example.debug.xcconfig"; path = "Target Support Files/Pods-MonthYearTextField_Example/Pods-MonthYearTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D307892DAD8A41CBB1868C6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D307892DAD8A41CBB1868C6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F6CB92F665C03D1B92F956CD /* Pods-MonthYearTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonthYearTextField_Example.release.xcconfig"; path = "Target Support Files/Pods-MonthYearTextField_Example/Pods-MonthYearTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FB31EA55E0A6642A27F56699 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FB31EA55E0A6642A27F56699 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F5B06782582773D005EBCE3 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2F5B067925827746005EBCE3 /* DesignableView.swift */,
+			);
+			name = "Helper Classes";
+			sourceTree = "<group>";
+		};
 		57B47A6832466BAA4C03DF5A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,7 +87,6 @@
 				17D2ED773FCA7E90E95484D3 /* Pods-MonthYearTextField_Tests.debug.xcconfig */,
 				866DF284680F778F94504B82 /* Pods-MonthYearTextField_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -105,6 +114,7 @@
 		607FACD21AFB9204008FA782 /* Example for MonthYearTextField */ = {
 			isa = PBXGroup;
 			children = (
+				2F5B06782582773D005EBCE3 /* Helper Classes */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -227,6 +237,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -333,6 +344,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				2F5B067A25827746005EBCE3 /* DesignableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
